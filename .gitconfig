@@ -1,0 +1,2 @@
+[alias]
+  rmbranch = "!f() { git branch -d ${1} && git push -d origin ${1} }; f"
